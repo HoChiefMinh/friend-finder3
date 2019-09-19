@@ -10,7 +10,7 @@ module.exports = function(app) {
     });
     
     // Catch-all route to homepage
-    app.use("/", function(req, res) {
+    app.get("/", function(req, res) {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 };
