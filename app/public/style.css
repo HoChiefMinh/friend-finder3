@@ -1,0 +1,131 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+ }
+
+#container {
+    height:100%;
+ }
+
+ #nav {
+    background-color: #5255fc;
+    height: 4rem;
+    padding:10px;
+    width: 100%;
+    border-bottom: #e8491d solid; 
+}
+
+#body {
+    padding:10px;
+    padding-bottom:70px; 
+}
+
+#brand{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'Gayathri', sans-serif;
+}
+
+li a{
+    font-family: 'Gayathri', sans-serif;
+    color: #0f0606;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: left;
+}
+
+.nav-item{
+    color:#ffffff;
+}
+ 
+
+li a:hover{
+    color: #f34646;
+    font-weight:bold;
+} 
+
+h1 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 45px;
+    margin: 0;
+    padding-top: 25px;
+    font-style: bold;
+}
+
+h2 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  #jumbotron {
+    margin:auto;
+  }
+
+ #submit, #goSurvey{
+    margin: 20px;
+    padding: 10px, 16px;
+}
+
+p, p.lead {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;  
+    padding: 0;
+    list-style-type: none;
+}
+
+#footer1 {
+    background-color: #5255fc;
+    color:#ffffff;
+    font-size: 16px;
+    bottom:0;
+    width:100%;
+    height:70px;
+    position: absolute;
+}
+
+#footer2 {
+    background-color: #5255fc;
+    color:#ffffff;
+    font-size: 16px;
+    bottom:0;
+    width:100%;
+    height:70px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #ffffff;
+}

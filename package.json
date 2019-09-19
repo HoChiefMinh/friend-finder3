@@ -1,0 +1,26 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "This app pairs you up with a friend that you are most compatible with, by asking a series of survey questions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoChiefMinh/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "Minh Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoChiefMinh/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/HoChiefMinh/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
